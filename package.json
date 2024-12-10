@@ -3,9 +3,12 @@
     "version": "1.0.0",
     "description": "poco Cypress first project",
     "scripts": {
-      "cypress:open": "../../node_modules/.bin/cypress open",
-      "cypress:run": "../../node_modules/.bin/cypress run",
-      "test:ci": "../../node_modules/.bin/cypress run",
-      "test:ci:record": "../../node_modules/.bin/cypress run --record"
+        "cypress:open": "../../node_modules/.bin/cypress open",
+        "cypress:run": "../../node_modules/.bin/cypress run",
+        "test:ci": "../../node_modules/.bin/cypress run",
+        "test:ci:record": "../../node_modules/.bin/cypress run --record"
+    },
+    "devDependencies": {
+        "cypress": "^13.16.1"
     }
-  }
+}
